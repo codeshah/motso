@@ -1,0 +1,197 @@
+/*
+Theme Name: motso
+Theme URI: http://underscores.me/
+Author: Sekander Badsha
+Author URI: http://sekander.pro
+Description: Minimal Responsive Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: motso
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+motso is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body{
+	font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: rgba(0,0,0,.8);
+    font-size: 18px;
+    line-height: 1.4;
+    background-color: #fafafa;
+    margin:0;
+    padding: 0;
+}
+
+.screen-reader-text{
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 a{
+	color: rgba(0,0,0,0.8);
+}
+
+a{
+	text-decoration: none;
+}
+
+.site-branding{
+	padding-left: 2em;
+}
+
+.site-header{
+	background-color: #fff;
+}
+
+figure, .site-title{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.site-title a{
+	color: rgba(0,0,0,0.44);
+	font-weight: 100;
+}
+
+.site-title a:hover, .menu a:hover{
+	color: rgba(0,0,0,0.8);
+}
+
+.menu{
+	border-bottom: 1px solid rgba(0,0,0,0.04);
+	border-top: 1px solid rgba(0,0,0,0.05);
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+	height: 50px;
+	box-sizing: border-box;
+}
+
+.menu li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2%;
+	padding: 10px 20px 18px 0;
+	font-size: 14px;
+}
+
+.menu a{
+	font-weight: 400;
+	color: rgba(0,0,0,0.44);
+}
+
+h2.entry-title{
+	padding: 0;
+	margin: 0;
+}
+
+.entry-meta, .entry-footer{
+	font-size: 16px;
+	color: #757575;
+}
+
+.entry-title a:hover{
+	border-bottom: 1px solid;
+	padding-bottom: 3px;
+}
+
+.home .site-main article p a, .home .site-main li a, .home .site-main table a{
+	color: rgba(0,0,0,0.8);
+	border-bottom: dotted 1px rgba(0,0,0,0.6);
+	padding: 0.3em;
+}
+
+article{
+	max-width: 660px;
+	background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+	padding:15px 20px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2;
+	font-size: 20px;
+    letter-spacing: -.004em;
+}
+
+.single-post h1{
+	margin:0;
+	padding-bottom: 1em;
+}
+
+.single-post h2, .single-post h3, .single-post h4{
+	line-height: 0;
+}
+
+.single-post .site-main a{
+	color: #5689CE;
+	border-bottom: dotted 1px #5689CE;
+	padding: 0.3em;
+}
+
+article p{
+	padding-bottom: 1em;
+	margin: 0;
+}
+
+blockquote{
+	font-style: italic;
+	color: rgba(0,0,0,0.6);
+}
+
+img{max-width: 640px !important;}
+
+pre{overflow: scroll;}
+
+table{
+	padding: 2em 0;
+}
+
+.nav-links{
+	text-align: center;
+	padding:2em 0;
+}
+
+.nav-links .page-numbers{
+	padding: 1em;
+	border: 1px solid #5689CE;
+	color: #5689CE;
+}
+
+.nav-links .page-numbers:hover{
+	background-color: #5689CE;
+	color: #fff;
+}
+
+.page-numbers.dots{
+	border: none;
+}
+
+.page-numbers.dots:hover{
+	background-color: inherit;
+	color: inherit;
+}
+
+@media screen and (max-width: 480px){
+body{
+	width: 90%;
+}
+}
